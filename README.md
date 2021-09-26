@@ -11,7 +11,7 @@ This adds `Moved from X to Y` in the edit reason field, when the forum is change
 
 To install, click [this link](https://github.com/vlad-timotei/forum-change-reason/raw/main/forum-change-reason.user.js) or open `forum-change-reason.user.js` and hit the Raw button. TamperMonkey or GreaseMonkey will take over from there.
 
-You can customize the message, just make sure the placeholders stay in place (`%1$s` - old forum, `$2$s` - new forum).
+You can customize the message, just make sure the placeholders stay in place (`%1$s` - old forum, `%2$s` - new forum).
 Just edit this line as you wish `const reasonText = 'Moved from %1$s to %2$s.';`
 
 ## Contributing
